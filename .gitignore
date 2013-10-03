@@ -1,2 +1,16 @@
 *~
-*.pyc
+*.py[cod]
+*.so
+*.so
+*.egg
+*.egg-info
+dist
+build
+test
+eggs
+parts
+bin
+var
+lib
+__pycache__
+*.mo
