@@ -1,4 +1,4 @@
-# Syndie Python
+# Syndie Python (Work In Progress)
 
 A fork of the Distributed Network Agnostic Forum software: [Syndie][1], which offers a secure and consistent interface to various anonymous and non-anonymous content networks.
 
