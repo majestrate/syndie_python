@@ -23,7 +23,7 @@ setup(
     # Metadata for PyPI.
     author = 'Jeff',
     author_email = 'ampernand@gmail.com',
-    license = '',
+    license = 'GPL3',
     url = '',
     keywords = '',
     description = 'Python implementation of the high latency network agnostic' \
