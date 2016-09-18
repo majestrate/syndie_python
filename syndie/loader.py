@@ -17,9 +17,9 @@ import traceback
 class Loader:
 
     logger = logging.getLogger("Loader")
-    dao = datastore.DAO()
 
     def __init__(self, directory):
+        self.dao = datastore.DAO()
         self.directory = os.path.abspath(directory)
         self._jobs = []
         self._jlock = threading.Lock()
