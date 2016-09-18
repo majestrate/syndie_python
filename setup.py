@@ -28,6 +28,5 @@ setup(
     keywords = '',
     description = 'Python implementation of the high latency network agnostic' \
     	' distributed forum syndie.',
-    package_dir= {'syndie':'src'}
 
     )

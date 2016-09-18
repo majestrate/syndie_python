@@ -14,9 +14,6 @@ from Crypto.PublicKey import ElGamal
 from . import bencode
 
 #
-# CAFFINE REMINDER: ---------> DOCUMENT EVERYTHING
-#
-#
 # TODO: unit tests must not be left for later
 #
 
@@ -131,12 +128,6 @@ class Message:
         self._header_type = line
         if self._header_type_valid():
             raise Exception('invalid header type: %s'%self._header_type)
-    
-        # CAFINE REMINDER: 
-        #
-        # don't forget to document things
-        #  -----------------^
-        #
   
         # get headers
         for line in iter(f.readline,''):

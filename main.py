@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 __author__ = 'jeff'
 from syndie.loader import Loader
 import argparse
