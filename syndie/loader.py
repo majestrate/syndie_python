@@ -4,8 +4,8 @@ __author__ = 'jeff'
 # loader.py -- message loader
 #
 ##
-from . import common
-from . import datastore
+from syndie import common
+from syndie import datastore
 import io
 import os
 import logging

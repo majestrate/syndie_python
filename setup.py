@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.3
+#!/usr/bin/env python
 
 ''' Handles packaging and setup '''
 
@@ -23,7 +23,7 @@ setup(
     # Metadata for PyPI.
     author = 'Jeff',
     author_email = 'ampernand@gmail.com',
-    license = 'GPL3',
+    license = 'MIT',
     url = '',
     keywords = '',
     description = 'Python implementation of the high latency network agnostic' \

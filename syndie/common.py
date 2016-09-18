@@ -19,9 +19,9 @@ import requests
 from Crypto.Cipher import AES
 from Crypto.PublicKey import ElGamal
 
-from . import uri
+from syndie import uri
 
-from . import util
+from syndie import util
 
 
 
